@@ -39,7 +39,7 @@ def form_data():
     else:
         out = 'Non Diabatic'
 
-    return render_template('index.html', data = f'The person is {out}')
+    return render_template('predict.html', data = f'The person is {out}')
 
     return 'Form Submitted'
 
